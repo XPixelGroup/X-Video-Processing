@@ -13,7 +13,7 @@
 
 <div align="center">
 
-English | [简体中文](README_zh-CN.md)
+<!-- English | [简体中文](README_zh-CN.md) -->
 
 </div>
 
@@ -105,6 +105,18 @@ A challenging benchmark named REDS for video restoration is released in the NTIR
 - **Authors**: Xintao Wang, Kelvin C.K. Chan, Ke Yu, Chao Dong, Chen Change Loy
 - Accepted at CVPRW'19
 - **Links**: :scroll:[`paper`](https://arxiv.org/abs/1905.02716) :computer:[`code`](https://github.com/xinntao/EDVR)
+
+## <a name="rethinking"></a>Rethinking Alignment in Video Super-Resolution Transformers
+
+The alignment of adjacent frames is considered an essential operation in video super-resolution (VSR). Advanced VSR models are generally equipped with well-designed alignment modules. In this paper, we rethink the role of alignment in VSR Transformers and make several counter-intuitive observations. Our experiments show that: (i) VSR Transformers can directly utilize multi-frame information from unaligned videos, and (ii) existing alignment methods are sometimes harmful to VSR Transformers. Based on these observations, we propose a new and efficient alignment method called patch alignment, which aligns image patches instead of pixels. VSR Transformers equipped with patch alignment could demonstrate state-of-the-art performance on multiple benchmarks.
+
+<div align="center">
+  <img src="assets/rethinking.png" width="700"/>
+</div>
+
+- **Authors**: Shuwei Shi, Jinjin Gu, Liangbin Xie, Xintao Wang, Yujiu Yang, Chao Dong
+- Accepted at NIPS'22
+- **Links**: :scroll:[`paper`](https://arxiv.org/abs/2207.08494) :computer:[`code`](https://github.com/XPixelGroup/RethinkVSRAlignment)
 
 # License
 
