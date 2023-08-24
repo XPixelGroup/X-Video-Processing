@@ -31,6 +31,7 @@ One of the significant challenges in video processing is the consideration of te
 - [Understanding Deformable Alignment in Video Super-Resolution](#understanding)
 - [Enhanced Quadratic Video Interpolation](#enhanced)
 - [EDVR: Video Restoration With Enhanced Deformable Convolutional Networks](#edvr)
+- [Rethinking Alignment in Video Super-Resolution Transformers](#rethinking)
 
 # Papers
 
